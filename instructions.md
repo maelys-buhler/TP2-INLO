@@ -55,11 +55,14 @@ GitHub s'occupe de créer le fichier `python-app.yml` et de le remplir.
 Analysez son contenu et répondez aux questions.
 
 **Quelles étapes (steps) sont réalisées par cette action ?**
+La préparation de python, l'installation des dépendances, la vérification de la syntaxe lint, et lancement des tests
 
 **Une étape est définie au minimum par 2 éléments, lesquels sont-ils et à quoi servent-ils ?**
+name: Le nom
+run: les instructions à lançer
 
 **La première étape contient le mot-clé 'with', a quoi sert-il ?**
-
+A indiquer l'outil à utiliser, ici la bonne version de python
 
 Vous pouvez maintenant créer un nouveau commit et pousser votre nouvelle action dans le repo (Bouton `Start Commit` ou `Commit changes`).
 En retournant dans le menu `Actions`, vous pouvez maintenant voir que le push a déclenché votre action et qu'elle est en train de s'exécuter.
