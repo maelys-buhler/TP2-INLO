@@ -249,10 +249,13 @@ Notez que la deuxième ligne indique à SonarCloud d'ignorer certains dossiers/f
 Une fois terminé, vous pouvez pousser les modifications sur le repository. L'action GitHub va se lancer, et l'analyse SonarCloud commencera. Vous devriez maintenant avoir accès au coverage. Allez sur l'onglet `Summary` du projet SonarCloud, cliquez sur le bouton `Overall Code` et répondez aux questions suivantes.
 
 **Quelle est la différence entre les sections `New code` et `Overall Code` dans l'onglet Summary ?**
+Le code ajouté dans la dernière version, vs l'intégralité du code du projet
 
 **Y a-t-il des Code Smells ? Si oui, combien et pour quelle(s) raisons(s) ?**
+3: 2 paramètre inutile, 1 fonction identiques à une autre, 
 
-**Y a-t-il des Security Hotspots ? Si oui, combien et pour quelle(s) raison(s) ?**
+**Y a-t-il des Security Hotspots ? Si oui, combien et pour quelle(s) raison(s) ?**¨
+L'image docker tourne sur root
 
 ## c)
 
