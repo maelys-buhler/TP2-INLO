@@ -24,7 +24,7 @@ def test_wallet_add_cash(wallet):
 
 def test_wallet_spend_cash(wallet):
     """Tests spend_cash function"""
-    wallet.spend_cash(10)
+    wallet.spend_money(10)
     assert wallet.balance == 10
 
 
