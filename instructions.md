@@ -174,9 +174,10 @@ Dans les sources du projet, modifiez `wallet.py` en lui rajoutant une méthode `
 Lors de cette deuxième analyse, vous devriez voir de nouveaux indicateurs dans l'onglet "Overview" de SonarCloud.
 
 **Sur l'onglet `Summary` d'une analyse de code, SonarCloud fournit 4 indicateurs. Quels sont-ils et quelles sont leurs utilités ?**
+Bugs, Code Smells, Vulnerabilities, Security Hotspots
 
 **À quoi sert l'indicateur Quality Gate ?**
-
+A dire si les conditions pour de la qualité sont passés
 
 ## b)
 Par défaut, SonarCloud s'occupe de faire la connexion avec votre projet GitHub automatiquement.
