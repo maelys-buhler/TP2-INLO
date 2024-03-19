@@ -31,4 +31,4 @@ def test_wallet_spend_cash(wallet):
 def test_wallet_spend_cash_raises_exception_on_insufficient_amount(empty_wallet):
     """Tests that InsufficientAmount exception is raised when trying to spend more thant the wallet's balance"""
     with pytest.raises(InsufficientAmount):
-        empty_wallet.spend_cash(100)
+        empty_wallet.spend_money(100)
